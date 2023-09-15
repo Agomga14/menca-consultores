@@ -1,0 +1,748 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+  display: grid;
+  border-color: transparent;
+  justify-items: center;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border-color: transparent;
+}
+/********************************HERO AREA**************************/
+
+.heroarea{
+   display: grid;
+  grid-template-rows: .8fr 1fr 1fr ;
+  grid-template-columns: 1fr;
+  width: 100%;
+  background-image: url("back1.jpg");
+   background-repeat: no-repeat;
+  background-size: 100% 110%;
+  opacity: 100%;
+  
+}
+
+
+@media (min-width: 100px) {
+.heroarea {
+ height: 550px;
+ position: relative;
+}
+
+@media (min-width: 900px) {
+.heroarea {
+ height: 600px;
+}
+}
+
+@media (min-width: 1920px) {
+.heroarea{
+ min-height: 900px;
+ height: 90vw;
+ max-height: 1100px;
+}
+}
+
+
+.hero-text
+{
+  display: grid;
+  align-self: center;
+  justify-self: center;
+  position: absolute;
+  min-width: 230px;
+width: 100%;
+  background-color: transparent;
+  opacity: 100%;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: auto;
+ margin-bottom: auto;
+ font-size: calc(8px + 0.1vw);
+ padding: 20px 0px;
+ text-align: center;
+}
+
+@media (max-width: 410px) {
+.hero-text  { margin-top: 20px;
+
+  }
+}
+
+
+
+/********************************HEADERS**************************/
+
+.h1 {
+   background-color: transparent;
+  font-size: calc(22px + 4.9vw);
+   font-family: Bebas Neue;
+  font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+   display: grid;
+  grid-column: 1/2;
+  justify-items: center;
+  margin: 5px;
+  align-self: center;
+  top: 40vh;
+    max-width: 99%;
+   justify-self: center;
+}
+
+
+.h2 {background-color: transparent;
+  display: grid;
+  grid-column: 1/2;
+  font-size: calc(26px + 4.9vw);
+font-family: Bebas Neue;
+  font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+  justify-items: center;
+  margin: 5px;
+    max-width: 98%;
+}
+
+
+
+
+/********************** TOP MENU  *****************/
+
+.icons-top-menu
+{
+  width: 99%;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+align-content: center;
+justify-content: space-between;
+align-content: center;
+padding: 20px 0px;
+position: fixed;
+ z-index: 900 ;
+}
+
+.btn-float-left
+{
+  display: grid;
+  align-items: center;
+  float: left;
+  background-color: transparent;
+  border-color: transparent;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.btn-float-left-height
+{
+ height: calc(50px + 1vw);
+}
+
+
+
+.btn-float-right
+{
+  display: flex;
+  float: right;
+  position: relative;
+  padding: 0px 20px;
+}
+
+
+.btn-top-menu {
+  display: grid;
+  grid-template-rows: 1fr;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: calc(16px + 2vw);
+  color: white; 
+  cursor: pointer;
+  max-height: 80px;
+  padding: 0px 15px 15px 15px;
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+under
+}
+
+/********************** MENU 3 LINES  *****************/
+
+.btn-top
+{
+  display: grid;
+  align-items: center;
+  align-content: center;
+}
+
+.btn-top:hover {
+background: red;
+}
+
+.btn-top-menu {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: grid;
+ align-items: center;
+ font-family: Bebas Neue;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: calc(20px + 3vw);
+  color: white; 
+  cursor: pointer;
+  background-color: transparent;
+  border-color: transparent;
+   align-self: end;
+  cursor: pointer;
+  text-align: center;
+}
+
+@media (min-width: 1400px) {
+.btn-top-menu {
+ font-size: calc(25px + 3vw);
+}
+}
+
+.btn-top-menu:hover {
+  color: orange;
+  background-color: transparent;
+}
+
+.top-menu-3lines
+{
+  display: grid;
+  justify-items: left;
+
+}
+
+
+
+
+.list-style:hover{
+color: orange;
+}
+
+.a {
+  color: white;
+  font-weight: 700;
+  font-size: 12px;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.button-hover {
+  display: grid;
+ grid-template-columns: 1fr .5fr;
+ justify-items: center;
+ align-items: center;
+ padding: 20px 0px 0px 0px;
+}
+
+.button-hover:hover
+{
+  background-color: #darkred;
+  border-radius: 0px;
+  opacity: .9;
+}
+
+.menu-title-3{
+  font-family: raleway;
+  font-weight: 200;
+  font-size: 12px;
+  color: white;
+  padding: 0px 0px;
+}
+
+/********************** DROP DOWN MENU*****************/
+
+
+.menu-small
+{
+  display: grid;
+  flex-direction: row;
+  align-items: center;
+  justify-items: right;
+  width: 100%;
+  height: 100%;
+}
+.logo-small
+{
+  width: 25px;
+  padding: 16px;
+  cursor: pointer;
+  display: grid;
+    justify-items: center;
+align-items: center;
+}
+
+.logo-big-index{
+cursor: pointer;
+}
+
+
+.dropdown {
+  display: grid;
+  align-content: center;
+  align-items: center;
+  justify-items: right;
+}
+
+.dropdown-content {
+  display: none;
+float: right;
+  position: relative;
+  min-width: 160px;
+  overflow: auto;
+  background-image: url("background-menu.jpg");
+  background-size: 100% 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  transition: maxheight 0.5s;
+}
+
+.dropdown-content a {
+  color: WHITE;
+  padding: 8px 0px;
+  text-decoration: none;
+  display: grid;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {
+  display: grid;
+  grid-template-rows: 1fr;
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  height: 100vh;
+  align-items: center;
+}
+
+ul
+{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: .5fr, repeat(6, 1fr);
+  margin: 0px;
+  padding: 0px;
+  height: 80%;
+}
+
+li {
+  align-items: center;
+  list-style: none;
+  padding: 13px 0px;
+  height: 35px;
+
+}
+
+li:hover {
+  background-color: transparent;
+}
+
+.dropbtn-container {
+ border-radius: 5px;
+background: #16A69B;
+ border-color: transparent;
+display: flex;
+width: calc(40px + 1vw);
+height: calc(40px + 1vw);
+padding: .2vw;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+}
+
+.dropbtn {
+  padding: 24px 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: transparent;
+}
+
+.buttons-right {
+  display: inline-grid;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  justify-items: right;
+  justify-content: right;
+  grid-template-columns: repeat(3, 1fr);
+  width: 200px;
+  justify-self: right;
+}
+
+.button-whatsapp {
+  display: grid;
+padding: 5px;
+border-radius: 5px;
+background: #16A69B;
+height:calc(40px + 1vw);
+justify-content: center;
+align-items: center;
+}
+
+.icon-whatsapp {
+  height: calc(20px + 1vw);
+
+}
+
+.button-contacto {
+border-radius: 5px;
+background: #16A69B;
+color: #FFF;
+text-align: center;
+font-family: Bebas Neue;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+border-color: transparent;
+    height: calc(40px + 1vw);
+}
+
+
+
+/***********************BOTTOM*************************/
+
+footer
+{
+  display: grid;
+  grid-template-rows:.5fr .5fr .5fr ;
+  grid-template-columns: 1fr;
+  max-width: 100%;
+  min-width: 300px;
+  margin-bottom: 0%;
+  background: linear-gradient(180deg, #306685 33.65%, #308085 100%);
+  padding: 10px 0px;
+}
+
+@media (max-width: 700px) {
+footer{
+  display: grid;
+justify-items: center;
+justify-content: center;
+width: 100%;
+}
+}
+
+@media (max-width: 1920px) {
+footer{
+ display: grid;
+  grid-template-rows:.5fr .5fr .5fr ;
+  grid-template-columns: 1fr;
+  max-width: 100%;
+  min-width: 300px;
+  background: linear-gradient(180deg, #306685 33.65%, #308085 100%);
+}
+}
+
+
+@media (min-width: 1921px) {
+footer{
+ display: grid;
+  grid-template-rows:.5fr .5fr .5fr ;
+  grid-template-columns: 1fr;
+  max-width: 100%;
+  min-width: 300px;
+  background: linear-gradient(180deg, #306685 33.65%, #308085 100%);
+}
+}
+
+@media (min-width: 1921px) {
+footer{ 
+  height: 50vh;
+}
+}
+
+
+.icons
+{
+  align-self: center;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex-direction: row;
+  justify-content: space-between;
+ background-color: transparent;
+ max-width: 900px;
+ min-width: 260px;
+ float: right;
+ padding: 20px 10px;
+
+}
+
+@media (min-width: 1px) {
+.icons{
+padding: 0px;
+ max-width: 250px;
+}
+}
+
+@media (min-width: 501px) {
+.icons{
+ min-width: 300px;
+}
+}
+
+@media (max-width: 700px) {
+.icons{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-self: center;
+  justify-content: center;
+  justify-items: center;
+height: 100px;
+width: 100%;
+max-width: 300px;
+justify-content: space-around;
+}
+}
+
+
+.icon-logo
+{float: left;
+padding: 20px 20px;
+height: 200px;
+}
+
+
+@media (min-width: 300px) {
+.icon-logo{
+  display: grid;
+padding: 20px 30px;
+ justify-self: center;
+ justify-items: center;
+}
+}
+
+@media (min-width: 410px) {
+.icon-logo{
+  height: 60px;
+padding: 20px 10px;
+float: left;
+ 
+}
+}
+
+
+.icon-bottom-image {
+  height: calc(50px + 1vw);
+}
+
+.split-right
+{
+  display: grid;
+  float: right;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+@media (min-width: 300px) {
+.split-right{
+ padding: 20px 0px;
+}
+}
+
+@media (min-width: 410px) {
+.split-right{
+ padding: 20px 20px;
+}
+}
+
+
+
+.bottom-icons {
+background-color:transparent;
+display: flex;
+flex-direction: column;
+justify-content: center;
+justify-items: center;
+width: 100%;
+}
+
+
+@media (max-width: 700px) {
+.bottom-icons{
+  background-color:transparent;
+width: 90%;
+display: flex;
+flex-direction: column;
+}
+}
+
+@media (min-width: 2400px) {
+.bottom-icons{
+  height: 20vh;
+  }
+}
+
+.bottom-menu
+{
+    display: grid;
+    align-items: center;
+  max-width: 100%;
+  font-size: .8rem;
+   font-family: 'Raleway', sans-serif;
+  font-weight: 1000;
+    color: white;
+    background-color: transparent;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: space-between;
+  padding: 20px 30px;
+border-radius: 2px;
+justify-items: center;
+margin: 0px;
+}
+
+@media (min-width: 1px) {
+.bottom-menu{
+  display: grid;
+   grid-template-columns: repeat(4, 1fr);
+height: 100px;
+width: 100%;
+justify-content: space-around;
+justify-items: center;
+padding: 0px;
+
+}
+}
+
+
+
+@media (min-width: 300px) {
+.bottom-menu{
+  display: grid;
+   grid-template-columns: repeat(4, 1fr);
+height: 100px;
+width: 100%;
+justify-content: space-around;
+justify-items: center;
+padding: 0px;
+
+}
+}
+
+@media (min-width: 410px) {
+.bottom-menu{
+  display: grid;
+   grid-template-columns: repeat(4, 1fr);
+height: 100px;
+width: 100%;
+justify-content: space-around;
+justify-items: center;
+padding: 0px;
+
+}
+}
+
+@media (min-width: 768px) {
+.bottom-menu{
+  display: grid;
+     grid-template-columns: repeat(4, 1fr);
+height: 100px;
+width: 100%;
+justify-content: space-around;
+justify-items: center;
+padding: 0px;
+
+}
+}
+
+@media (min-width: 2400px) {
+.bottom-menu{
+  width: 80%;
+  justify-self: center;
+  }
+}
+
+.btn-bottom
+{
+  font-size: calc(10px + 0.4vw);
+   font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+
+.bottom-text
+{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  height: 200px;
+    font-size: calc(14px + 0.2vw);
+   font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  color: white;
+  background-color: transparent;
+    text-transform: none;
+    text-align: center;
+  justify-items: center;
+  padding: 10px 0px;
+  border-top-style: solid;
+  border-top-color: white;
+  border-top-width: 1px;
+  width: 100%;
+}
+
+
+@media (min-width: 300px) {
+.bottom-text {
+font-size: calc(8px + 0.1vw);
+padding: 10px 0px;
+color: white;
+font-weight: 500;
+border-top-style: solid;
+  border-top-color: white;
+  border-top-width: 1px;
+  width: 100%;
+  text-align: center;
+  height: 200px;
+}
+
+@media (min-width: 410px) {
+.bottom-text {
+  font-size: calc(14px + 0.1vw);
+  color: white;
+  padding: 10px 0px;
+  font-weight: 500;
+  border-top-style: solid;
+  border-top-color: white;
+  border-top-width: 1px;
+  width: 100%;
+  height: 50px;
+}
+
+
