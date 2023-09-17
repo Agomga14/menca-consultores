@@ -518,7 +518,7 @@ footer{
 {
   align-self: center;
   display:grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   flex-direction: row;
   justify-content: space-between;
  background-color: transparent;
@@ -545,7 +545,7 @@ padding: 0px;
 @media (max-width: 700px) {
 .icons{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-self: center;
   justify-content: center;
