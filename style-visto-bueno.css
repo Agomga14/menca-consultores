@@ -1,4 +1,7 @@
-
+li {
+  list-style: inside;
+  text-justify: auto;
+}
 
 /**********************  GALERÍA DE IMAGENES PAGE *****************/
 
@@ -228,6 +231,21 @@ line-height: 100px;
 }
 .image-title-vobo-6{
   background-image: url('vobo1.jpg');
+   background-repeat: no-repeat; 
+    background-size: 100% 100%;
+
+}
+
+
+.image-title-vobo-7{
+  background-image: url('vobo2.jpg');
+   background-repeat: no-repeat; 
+    background-size: 100% 100%;
+
+}
+
+.image-title-vobo-8{
+  background-image: url('vobo3.jpg');
    background-repeat: no-repeat; 
     background-size: 100% 100%;
 

@@ -1,3 +1,10 @@
+
+li {
+  list-style: inside;
+  text-justify: auto;
+}
+
+
 /**********************  EL EQUIPO PAGE *****************/
 
 
@@ -81,12 +88,12 @@ height: 50%;
   display: flex;
 align-items: center;
 gap: 10px;
-background: rgba(14, 171, 133, 0.50);
+background: rgba(55, 165, 172, 0.50);
 }
 
 
 .h24 {
-  color: #0DAC86;
+  color: #37A5AC;
 }
 
 
@@ -133,7 +140,7 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 10
   grid-template-columns: .4fr 1fr;
   flex-direction: row;
   justify-items: center;
-  padding: 20px 0px;
+  padding: 30px 0px;
 }
 
 
@@ -148,6 +155,14 @@ width: 100%;
 @media (min-width: 900px) {
 .grid-wrapper-content {
 width: 60%;
+    grid-template-rows: 1fr;
+    grid-template-columns: .5fr 1fr;
+}
+}
+
+@media (min-width: 1900px) {
+.grid-wrapper-content {
+width: 40%;
     grid-template-rows: 1fr;
     grid-template-columns: .5fr 1fr;
 }
@@ -172,9 +187,10 @@ grid-gap: 40px;
   grid-template-rows: 1fr;
   width: 25vw;
   grid-gap: 10px;
-  padding: 40px 20px;
-  background: #37A5AC;
+  padding: 20px 20px;
+  background: #3790AC;
   justify-self: start;
+  margin: 10px 0px;
 }
 
 @media (min-width: 1px) {
@@ -232,13 +248,15 @@ grid-gap: 40px;
 @media (min-width: 1920px) {
 .grid-wrapper-dictamenes-left{
  justify-self: center;
+ width: 15vw;
+  }
 }
 }
 
 @media (min-width: 2400px) {
 .grid-wrapper-dictamenes-left{
  justify-self: center;
- width: 15VW;
+ width: 20VW;
 }
 }
 
@@ -260,7 +278,7 @@ grid-gap: 40px;
 max-width: 400px;
 flex-direction: column;
 align-items: flex-start;
-gap: 30px;
+gap: 20px;
 align-self: stretch;
 
 }
@@ -323,7 +341,7 @@ height: 400px;
 @media (min-width: 1100px) {
 .box-dictamen {
 min-width: 250px;
-height: 450px;
+height: 420px;
 }
 }
 
@@ -331,21 +349,28 @@ height: 450px;
 @media (min-width: 1400px) {
 .box-dictamen {
 min-width: 250px;
-height: 550px;
+height: 450px;
+}
+}
+
+@media (min-width: 1900px) {
+.box-dictamen {
+min-width: 250px;
+height: 450px;
 }
 }
 
 @media (min-width: 2400px) {
 .box-dictamen {
-min-width: 250px;
-min-height: 600px;
-height: 50vh;
+min-width: 500px;
+min-height: 400px;
+height: 45vh;
 }
 }
 
 
 .title-nombre-equipo{
-  padding: 20px;
+  padding: 0px 20PX 0px 20px;
   font-family: Bebas Neue;
   font-weight: 800;
 text-transform: uppercase;
@@ -356,6 +381,7 @@ font-size: calc(30px + 0.6vw);
 font-style: normal;
 font-weight: 400;
 text-transform: uppercase;
+margin: 0px;
 
 }
 
@@ -406,7 +432,6 @@ display: block;
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   justify-items: center;
-  padding: 10px 0px;
   width: 60%;
  grid-gap: 15px;
 }
@@ -442,6 +467,7 @@ display: block;
 
 .box-inferior {
   margin: 10px;
+  padding: 40px 0px 0px 0px;
   min-width: 200px;
   width: .5fr;
   max-width: 350px;
@@ -460,7 +486,7 @@ display: block;
   .box-inferior {
     min-width: 200px;
     max-width: 450px ;
-    height: 300px;
+    height: 260px;
   }
 }
 
@@ -468,7 +494,7 @@ display: block;
   .box-inferior {
     min-width: 280px;
     max-width: 450px ;
-    height: 300px;
+    height: 240px;
   }
 }
 
@@ -476,7 +502,15 @@ display: block;
   .box-inferior {
     min-width: 320px;
     max-width: 450px ;
-    min-height: 320px;
+    min-height: 210px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .box-inferior {
+    min-width: 320px;
+    max-width: 450px ;
+    min-height: 220px;
   }
 }
 
@@ -485,7 +519,7 @@ display: block;
   .box-inferior {
     min-width: 510px;
     max-width: 550px ;
-    min-height: 380px;
+    min-height: 240px;
   }
 }
 
@@ -494,7 +528,7 @@ display: block;
     width: 25VW;
     min-width: 560px;
     max-width: 2000PX;
-    min-height: 380PX;
+    min-height: 280PX;
     height: 30VH;
   }
 }

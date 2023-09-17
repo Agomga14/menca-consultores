@@ -589,6 +589,26 @@ padding: 20px 0px;
 }
 
 
+@media (min-width: 2400px) {
+.logo-partners-wrapper{
+display: grid;
+min-height: 300px;
+padding: 20px 0px;
+ height: 15vw;
+
+}
+}
+
+@media (min-width: 3400px) {
+.logo-partners-wrapper{
+display: grid;
+min-height: 300px;
+padding: 20px 0px;
+ height: 10vh;
+
+}
+}
+
 
 .clientes {
   display: grid;
