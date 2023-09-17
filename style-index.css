@@ -57,12 +57,14 @@ min-height: 1200px;
 .hero-content-wrappper {
 display: grid;
 align-items: center;
+justify-items: center;
 grid-template-columns: .7fr .4fr;
 grid-template-rows: 1fr;
 gap: 40px;
 flex: 1 0 0;
 align-self: stretch;
 height: 100%;
+width: 100%;
 
 }
 
@@ -81,6 +83,20 @@ height: 30vw;
 background: rgba(38, 157, 152, 0.5);
 }
 
+
+
+@media (min-width: 100px) {
+.hero-text-wrapper {
+padding: 10px 1px;
+}
+}
+
+
+@media (min-width: 600px) {
+.hero-text-wrapper {
+padding: 10px 5px;
+}
+}
 
 .h14 {
   display: flex;
