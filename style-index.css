@@ -620,7 +620,31 @@ color: #fff;
 text-align: center;
 font-family: bebas neue;
 font-weight: 200;
-max-width: 100px;
+max-width: 200px;
+}
+
+@media (min-width: 100px) {
+.clientes{
+display: grid;
+max-width: 200px;
+
+}
+}
+
+@media (min-width: 600px) {
+.clientes{
+display: grid;
+max-width: 900px;
+
+}
+}
+
+@media (min-width: 2400px) {
+.clientes{
+display: grid;
+max-width: 1200px;
+
+}
 }
 
 .logos-partners {
