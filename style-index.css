@@ -674,7 +674,7 @@ width: 60%;
 justify-items: center;
 grid-template-columns: repeat(auto-fit, 280px);
 grid-template-rows: repeat(1, 1fr);
-min-width: 400px;
+min-width: 300px;
 padding: 10px 0px;
 height: 20vw;
 justify-content: center;
@@ -690,7 +690,7 @@ max-height: 500px;
 .logos-partners{
  grid-template-columns: repeat(auto-fit, 150px);
 grid-template-rows: repeat(2, 1fr);
-width: 99vw;
+width: 100%;
 }
 }
 
@@ -734,7 +734,7 @@ width: 80vw;
 
 .logo-partner-individual {
   max-height: 100px;
-  height: calc(50px + 3.5vw);
+  height: calc(40px + 3.5vw);
   width: 150px;
   padding: 20px 0px;
 }
