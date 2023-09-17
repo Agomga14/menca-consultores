@@ -71,7 +71,7 @@ height: 100%;
   float: left;
 display: flex;
 flex-direction: column;
-padding: 10px 10px;
+padding: 10px 0px;
 justify-content: center;
 align-items: center;
 gap: 10px;
@@ -620,6 +620,7 @@ color: #fff;
 text-align: center;
 font-family: bebas neue;
 font-weight: 200;
+max-width: 100px;
 }
 
 .logos-partners {
