@@ -145,6 +145,23 @@ position: fixed;
   cursor: pointer;
 }
 
+@media (min-width: 100px) {
+.btn-float-left
+{
+  padding: 0px;
+ }
+}
+
+
+
+@media (min-width: 500px) {
+.btn-float-left
+{
+  padding: 20px;
+ }
+}
+
+
 .btn-float-left-height
 {
  height: calc(40px + 1.3vw);
