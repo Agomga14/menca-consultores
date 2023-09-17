@@ -473,6 +473,7 @@ footer
   margin-bottom: 0%;
   background: linear-gradient(180deg, #306685 33.65%, #308085 100%);
   padding: 10px 0px;
+  max-height: 800px;
 }
 
 @media (max-width: 700px) {
