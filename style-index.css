@@ -555,6 +555,7 @@ background-color: #047E8F;
 .logo-partners-wrapper{
 display: grid;
 min-height: 300px;
+justify-items: center;
 }
 }
 
@@ -619,7 +620,6 @@ color: #fff;
 text-align: center;
 font-family: bebas neue;
 font-weight: 200;
-height: 50px;
 }
 
 .logos-partners {

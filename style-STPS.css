@@ -239,8 +239,7 @@ align-self: stretch;
 margin-left: auto;
 margin-right: auto;
 min-width: 220px;
-max-width: 320px;
-height: 600px;
+max-width: 340px;
 }
 }
 
@@ -252,7 +251,7 @@ margin-right: auto;
 min-width: 260px;
 width: 100vw;
 max-width: 250px;
-height: 300px;
+min-height: 340px;
 }
 }
 
@@ -432,6 +431,15 @@ padding: 35px 0px;
 }
 
 @media (min-width: 1px) {
+.STPS-general-wrapper {
+height: 480px;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr ;
+min-width: 300px;
+}
+}
+
+}@media (min-width: 600px) {
 .STPS-general-wrapper {
 height: 450px;
 grid-template-columns: 1fr;
