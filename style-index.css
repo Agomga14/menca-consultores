@@ -674,7 +674,7 @@ width: 60%;
 justify-items: center;
 grid-template-columns: repeat(auto-fit, 280px);
 grid-template-rows: repeat(1, 1fr);
-min-width: 300px;
+min-width: 250px;
 padding: 10px 0px;
 height: 20vw;
 justify-content: center;
