@@ -300,7 +300,7 @@ padding: 10PX 5PX;
 display: grid;
 justify-items: center;
 align-items: center;
-padding: 10px;
-height: 100%;
-width: 100%;
+padding: 20px;
+height: 65%;
+width: 65%;
 }
