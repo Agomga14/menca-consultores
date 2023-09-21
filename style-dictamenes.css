@@ -2,6 +2,7 @@
 li {
   list-style: inside;
   text-justify: auto;
+
 }
 
 
@@ -160,9 +161,9 @@ width: 60%;
 }
 }
 
-@media (min-width: 1900px) {
+@media (min-width: 1920px) {
 .grid-wrapper-content {
-width: 40%;
+width: 50%;
     grid-template-rows: 1fr;
     grid-template-columns: .5fr 1fr;
 }
@@ -170,7 +171,7 @@ width: 40%;
 
 @media (min-width: 2400px) {
 .grid-wrapper-content {
-width: 40%;
+width: 50%;
 grid-gap: 40px;
     grid-template-rows: 1fr;
     grid-template-columns: .5fr 1fr;
@@ -248,7 +249,7 @@ grid-gap: 40px;
 @media (min-width: 1920px) {
 .grid-wrapper-dictamenes-left{
  justify-self: center;
- width: 15vw;
+ width: 20vw;
   }
 }
 }
@@ -353,10 +354,10 @@ height: 450px;
 }
 }
 
-@media (min-width: 1900px) {
+@media (min-width: 1920px) {
 .box-dictamen {
 min-width: 250px;
-height: 450px;
+height: 480px;
 }
 }
 
