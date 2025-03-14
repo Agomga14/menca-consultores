@@ -85,7 +85,7 @@ background: rgba(38, 157, 152, 0.5);
 
 
 
-@media (min-width: 100px) {
+@media (min-width: 1px) {
 .hero-text-wrapper {
 padding: 10px 1px;
 }
@@ -146,7 +146,7 @@ background: #04BAA4;
 justify-content: center;
 }
 
-@media (min-width: 300px) {
+@media (min-width: 1px) {
 .banner{
   display: flex;
 height: 25VW;
@@ -200,7 +200,7 @@ text-transform: uppercase;
   background: linear-gradient(180deg, rgba(48, 102, 133, 0.70) 16.98%, rgba(56, 189, 181, 0.70) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
-@media (min-width: 300px) {
+@media (min-width: 1px) {
 .grid-general-index {
 
   padding: 20px 0px;
@@ -231,7 +231,7 @@ justify-content: center;
 
 }
 
-@media (min-width: 300px) {
+@media (min-width: 1px) {
 .grid-wrapper-index {
 
   margin: 5px auto;
@@ -323,7 +323,7 @@ justify-content: center;
 }
 
 
-@media (min-width: 300px) {
+@media (min-width: 1px) {
 .grid-wrapper-index-reverse {
 
   margin: 5px auto;
@@ -470,7 +470,7 @@ height: 100%;
 height: 100%;
 }
 
-@media (min-width: 300px) {
+@media (min-width: 1px) {
 .big-card-text{
 display: grid;
   grid-template-columns: 1fr;
@@ -570,7 +570,7 @@ background-color: #047E8F;
 
 }
 
-@media (min-width: 300px) {
+@media (min-width: 1px) {
 .logo-partners-wrapper{
 display: grid;
 min-height: 300px;
@@ -686,7 +686,7 @@ max-height: 500px;
 
 }
 
-@media (min-width: 100px) {
+@media (min-width: 1px) {
 .logos-partners{
  grid-template-columns: repeat(auto-fit, 100px);
 grid-template-rows: repeat(2, 1fr);
